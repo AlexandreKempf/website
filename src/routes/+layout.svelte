@@ -3,7 +3,7 @@
 	import 'animate.css';
 </script>
 
-<div class="w-screen h-screen overflow-hidden background">
+<div class="overflow-hidden background" id="home">
 	<div id="stars" />
 	<div id="stars2" />
 	<div id="stars3" />

@@ -36,6 +36,7 @@
 	"dependencies": {
 		"@unocss/core": "^0.50.8",
 		"@unocss/reset": "^0.56.2",
-		"animate.css": "^4.1.1"
+		"animate.css": "^4.1.1",
+		"svelte-animated-headline": "^1.0.7"
 	}
 }

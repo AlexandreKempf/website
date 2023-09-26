@@ -10,6 +10,9 @@ dependencies:
   animate.css:
     specifier: ^4.1.1
     version: 4.1.1
+  svelte-animated-headline:
+    specifier: ^1.0.7
+    version: 1.0.7(svelte@3.59.2)
 
 devDependencies:
   '@iconify-json/iconoir':
@@ -2060,6 +2063,14 @@ packages:
       has-flag: 4.0.0
     dev: true
 
+  /svelte-animated-headline@1.0.7(svelte@3.59.2):
+    resolution: {integrity: sha512-+TPbAxgh5HjJCkl30yIhsBGUHQoSqc8bNw8DSe9dc26pz+DgAchYWca4PBGXM/5goojWEmU9kwca+4jFyLeoXQ==}
+    peerDependencies:
+      svelte: ^4.0.0
+    dependencies:
+      svelte: 3.59.2
+    dev: false
+
   /svelte-check@3.5.2(postcss@8.4.30)(svelte@3.59.2):
     resolution: {integrity: sha512-5a/YWbiH4c+AqAUP+0VneiV5bP8YOk9JL3jwvN+k2PEPLgpu85bjQc5eE67+eIZBBwUEJzmO3I92OqKcqbp3fw==}
     hasBin: true
@@ -2147,7 +2158,6 @@ packages:
   /svelte@3.59.2:
     resolution: {integrity: sha512-vzSyuGr3eEoAtT/A6bmajosJZIUWySzY2CzB3w2pgPvnkUjGqlDnsNnA0PMO+mMAhuyMul6C2uuZzY6ELSkzyA==}
     engines: {node: '>= 8'}
-    dev: true
 
   /text-table@0.2.0:
     resolution: {integrity: sha512-N+8UisAXDGk8PFXP4HAzVR9nbfmVJ3zYLAWiTIoqC5v5isinhr+r5uaO8+7r3BMfuNIufIsA7RdpVgacC2cSpw==}

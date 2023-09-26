@@ -1,53 +1,103 @@
-<script>
+<script lang="ts">
 	import Navbar from '$lib/navbar.svelte';
 	import { fly, fade } from 'svelte/transition';
+	import { AnimatedHeadline } from 'svelte-animated-headline';
 
-	import { active_page } from '$lib/store.js';
+	let shuffle = (list) => {
+		list
+			.map((value) => ({ value, sort: Math.random() }))
+			.sort((a, b) => a.sort - b.sort)
+			.map(({ value }) => value);
+		return list;
+	};
+	let yPosition: number;
+	let thingsILove: string[] = [
+		'Svelte',
+		'biology',
+		'data science',
+		'the planet',
+		'UnoCSS',
+		'slide decks',
+		'design',
+		'functional programming',
+		'video games',
+		'T1 Faker',
+		'Markdown'
+	];
+	let thingsIHate: string[] = ['Beamer deck', 'LaTeX', 'javascript', 'eating cold'];
 </script>
 
-<div class="flex flex-col justify-between w-screen h-screen">
-	<div class="mx-50% my-30 flex flex-col items-center">
-		{#if $active_page == 'home'}
-			<img src="astronaut.svg" alt="astronaut" class="w-13 animate-[pulse_2s_infinite]" />
-			<div class="m-5 text-xl text-white">
-				<div class="typing-demo">Lost in the web.</div>
-			</div>
-		{:else if $active_page == 'profile'}
-			<img src="astronaut.svg" alt="astronaut" class="w-13 animate-[pulse_2s_infinite]" />
-			<div class="m-5 text-xl text-white">
+<svelte:window bind:scrollY={yPosition} />
+
+<div class="flex flex-col justify-between min-h-screen">
+	<Navbar />
+
+	<div class="mx-auto my-30 flex flex-col items-center">
+		<img src="astronaut.svg" alt="astronaut" class="fixed w-13 animate-[pulse_2s_infinite]" />
+		{#if yPosition == 0}
+			<div out:fade class="m-20 h-30 text-xl text-white">
 				<div class="typing-demo">Alexandre Kempf.</div>
 			</div>
-			<p class="w-70 text-white leading-6 my-2" in:fly={{ y: 200, duration: 2000, delay: 2000 }}>
-				Born a biologist in 1992, <br />
-				PhD in neurosciences in 2018, <br />
-				I love videogames (except Dota-2), <br />
-				volleyball, badminton and sailing.
-			</p>
-			<p class="w-70 text-white leading-6 my-2" in:fly={{ y: 200, duration: 2000, delay: 3000 }}>
-				Try my best at functional programming, <br />
-				code useless things on my free time. <br />
-				Waste time on the internet of things <br />
-				then complain on my deadlines.
-			</p>
-			<p class="w-70 text-white leading-6 my-2" in:fly={{ y: 200, duration: 2000, delay: 4000 }}>
-				I find Svelte smooth as butter, <br />
-				but I hate javascript. <br />
-				I don't like python neither. <br />
-				but a boy needs to eat.
-			</p>
+		{:else}
+			<div class="h-30 m-20" />
 		{/if}
+		<div class="h-150" />
+		<div id="profile">
+			<div class="h-50" />
+			{#if yPosition >= 400 && yPosition <= 1050}
+				<div
+					in:fade={{ duration: 1000 }}
+					out:fade
+					class="m-5 text-xl text-white w-120 mx-auto text-center"
+				>
+					<p class="text-white">
+						I <span>❤️</span>
+						<AnimatedHeadline
+							texts={shuffle(thingsILove)}
+							y={30}
+							wait={500}
+							slide={500}
+							fade={300}
+						/>
+					</p>
+				</div>
+				<div
+					in:fade={{ duration: 1000 }}
+					out:fade
+					class="m-5 text-xl text-white w-120 mx-auto text-center"
+				>
+					<p class="text-white">
+						I <span>💩</span>
+						<AnimatedHeadline
+							texts={shuffle(thingsIHate)}
+							y={30}
+							wait={500}
+							slide={500}
+							fade={200}
+						/>
+					</p>
+				</div>
+			{/if}
+		</div>
+		<div class="h-screen" />
 	</div>
-	<Navbar />
+	<p class="fixed text-white">{yPosition}</p>
 </div>
 
 <style>
+	p {
+		font-family: Sono, monospace;
+	}
+	p span {
+		font-family: Arial, Helvetica, sans-serif;
+	}
 	.typing-demo {
 		width: 16ch;
 		animation: typing 2s steps(22), blink 0.5s step-end alternate;
 		white-space: nowrap;
 		overflow: hidden;
 		border-right: 2px solid;
-		font-family: VT323, monospace;
+		font-family: Sono, monospace;
 	}
 
 	@keyframes typing {
