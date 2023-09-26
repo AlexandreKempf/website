@@ -1,5 +1,5 @@
 {
-	"name": "unocss-template",
+	"name": "alex-website",
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
@@ -13,26 +13,29 @@
 		"format": "prettier --plugin-search-dir . --write ."
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-auto": "^2.0.0",
-		"@sveltejs/kit": "^1.5.0",
-		"@typescript-eslint/eslint-plugin": "^5.45.0",
-		"@typescript-eslint/parser": "^5.45.0",
-		"eslint": "^8.28.0",
-		"eslint-config-prettier": "^8.5.0",
+		"@iconify-json/iconoir": "^1.1.32",
+		"@sveltejs/adapter-auto": "^2.1.0",
+		"@sveltejs/kit": "^1.25.1",
+		"@typescript-eslint/eslint-plugin": "^5.62.0",
+		"@typescript-eslint/parser": "^5.62.0",
+		"@unocss/preset-icons": "^0.56.2",
+		"eslint": "^8.50.0",
+		"eslint-config-prettier": "^8.10.0",
 		"eslint-plugin-svelte3": "^4.0.0",
-		"prettier": "^2.8.0",
-		"prettier-plugin-svelte": "^2.8.1",
-		"svelte": "^3.54.0",
-		"svelte-check": "^3.0.1",
-		"tslib": "^2.4.1",
-		"typescript": "^4.9.3",
-		"unocss": "^0.50.1",
-		"vite": "^4.0.0",
-		"vitest": "^0.25.3"
+		"prettier": "^2.8.8",
+		"prettier-plugin-svelte": "^2.10.1",
+		"svelte": "^3.59.2",
+		"svelte-check": "^3.5.2",
+		"tslib": "^2.6.2",
+		"typescript": "^4.9.5",
+		"unocss": "^0.50.8",
+		"vite": "^4.4.9",
+		"vitest": "^0.25.8"
 	},
 	"type": "module",
 	"dependencies": {
-		"@picocss/pico": "^1.5.7",
-		"@unocss/core": "^0.50.1"
+		"@unocss/core": "^0.50.8",
+		"@unocss/reset": "^0.56.2",
+		"animate.css": "^4.1.1"
 	}
 }
