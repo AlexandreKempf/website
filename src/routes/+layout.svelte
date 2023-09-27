@@ -12,7 +12,7 @@
 
 <style uno:preflights uno:safelist global>
 	.background {
-		background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+		background: linear-gradient(to bottom, #090a0f 0%, #1b2735 30%, #305a8a 100%);
 	}
 	#stars {
 		width: 1px;

@@ -13,6 +13,9 @@ dependencies:
   svelte-animated-headline:
     specifier: ^1.0.7
     version: 1.0.7(svelte@3.59.2)
+  svelte-scrollto-element:
+    specifier: ^0.7.0
+    version: 0.7.0(svelte@3.59.2)
 
 devDependencies:
   '@iconify-json/iconoir':
@@ -2154,6 +2157,14 @@ packages:
       svelte: 3.59.2
       typescript: 5.2.2
     dev: true
+
+  /svelte-scrollto-element@0.7.0(svelte@3.59.2):
+    resolution: {integrity: sha512-bESbhGeJFwkgMSlklvPrQlYoeMLI7ODWaTzIOzZqSjQJ6nRmub4DcaD8aojKygVX8KotPQu4Qi727nC2eXRRSQ==}
+    peerDependencies:
+      svelte: '3'
+    dependencies:
+      svelte: 3.59.2
+    dev: false
 
   /svelte@3.59.2:
     resolution: {integrity: sha512-vzSyuGr3eEoAtT/A6bmajosJZIUWySzY2CzB3w2pgPvnkUjGqlDnsNnA0PMO+mMAhuyMul6C2uuZzY6ELSkzyA==}

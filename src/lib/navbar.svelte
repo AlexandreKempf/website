@@ -1,4 +1,5 @@
 <script>
+	import { animateScroll } from 'svelte-scrollto-element';
 	let active_page = 'home';
 </script>
 
@@ -9,7 +10,7 @@
 			on:click={() => (active_page = 'home')}
 			on:keydown={() => (active_page = 'home')}
 		>
-			<a href="#home">
+			<a href="#home" on:click={() => animateScroll.scrollTo({ element: '#home', duration: 2000 })}>
 				<span class="icon">
 					<div class="i-iconoir-home-alt" />
 				</span>
@@ -17,36 +18,14 @@
 			</a>
 		</li>
 		<li
-			class="list {active_page == 'profile' ? 'active' : ''}"
-			on:click={() => (active_page = 'profile')}
-			on:keydown={() => (active_page = 'profile')}
-		>
-			<a href="#profile" class="text-white">
-				<span class="icon">
-					<div class="i-iconoir-user" />
-				</span>
-				<span class="text">Profile</span>
-			</a>
-		</li>
-		<li
-			class="list {active_page == 'code' ? 'active' : ''}"
-			on:click={() => (active_page = 'code')}
-			on:keydown={() => (active_page = 'code')}
-		>
-			<a href="#!">
-				<span class="icon">
-					<div class="i-iconoir-code" />
-				</span>
-				<span class="text">Code</span>
-			</a>
-		</li>
-
-		<li
 			class="list {active_page == 'photos' ? 'active' : ''}"
 			on:click={() => (active_page = 'photos')}
 			on:keydown={() => (active_page = 'photos')}
 		>
-			<a href="#!">
+			<a
+				href="#photos"
+				on:click={() => animateScroll.scrollTo({ element: '#photos', duration: 2000 })}
+			>
 				<span class="icon">
 					<div class="i-iconoir-camera" />
 				</span>
@@ -55,11 +34,43 @@
 		</li>
 
 		<li
+			class="list {active_page == 'profile' ? 'active' : ''}"
+			on:click={() => (active_page = 'profile')}
+			on:keydown={() => (active_page = 'profile')}
+		>
+			<a
+				href="#profile"
+				on:click={() => animateScroll.scrollTo({ element: '#profile', duration: 2000 })}
+			>
+				<span class="icon">
+					<div class="i-iconoir-user" />
+				</span>
+				<span class="text">Profile</span>
+			</a>
+		</li>
+
+		<li
+			class="list {active_page == 'code' ? 'active' : ''}"
+			on:click={() => (active_page = 'code')}
+			on:keydown={() => (active_page = 'code')}
+		>
+			<a href="#code" on:click={() => animateScroll.scrollTo({ element: '#code', duration: 2000 })}>
+				<span class="icon">
+					<div class="i-iconoir-code" />
+				</span>
+				<span class="text">Code</span>
+			</a>
+		</li>
+
+		<li
 			class="list {active_page == 'contact' ? 'active' : ''}"
 			on:click={() => (active_page = 'contact')}
 			on:keydown={() => (active_page = 'contact')}
 		>
-			<a href="#!">
+			<a
+				href="#contact"
+				on:click={() => animateScroll.scrollTo({ element: '#contact', duration: 2000 })}
+			>
 				<span class="icon">
 					<div class="i-iconoir-message" />
 				</span>
@@ -146,31 +157,31 @@
 		top: 50%;
 		width: 70px;
 		height: 70px;
-		background: #0e9c2b;
+		background: #00ff0a;
 		border-radius: 100%;
-		border: 6px solid var(--clr);
+		border: 6px solid #fff;
 		cursor: pointer;
 		transition: 0.5s;
 	}
 	.indicator::before {
 		content: '';
 		position: absolute;
-		top: 16%;
+		top: 28px;
 		left: -22px;
 		width: 20px;
 		height: 20px;
-		border-bottom-right-radius: 20px;
-		box-shadow: 3px 10px 0 0 var(--clr);
+		border-top-right-radius: 20px;
+		box-shadow: 4px -6px 0 0 #fff;
 	}
 	.indicator::after {
 		content: '';
 		position: absolute;
-		top: 16%;
+		top: 28px;
 		right: -22px;
 		width: 20px;
 		height: 20px;
-		border-bottom-left-radius: 20px;
-		box-shadow: -3px 10px 0 0 var(--clr);
+		border-top-left-radius: 20px;
+		box-shadow: -4px -6px 0 0 #fff;
 	}
 	.navigation ul li:nth-child(2).active ~ .indicator {
 		transform: translateX(calc(70px * 1));
