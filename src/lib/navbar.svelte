@@ -1,16 +1,25 @@
 <script>
 	import { animateScroll } from 'svelte-scrollto-element';
-	let active_page = 'home';
+	import { activePage, isMenuClicked } from '$lib/store.js';
 </script>
 
 <div class="navigation">
 	<ul>
 		<li
-			class="list {active_page == 'home' ? 'active' : ''}"
-			on:click={() => (active_page = 'home')}
-			on:keydown={() => (active_page = 'home')}
+			class="list {$activePage == 'home' ? 'active' : ''}"
+			on:click={() => ($activePage = 'home')}
+			on:keydown={() => ($activePage = 'home')}
 		>
-			<a href="#home" on:click={() => animateScroll.scrollTo({ element: '#home', duration: 2000 })}>
+			<a
+				href="#home"
+				on:click={() =>
+					animateScroll.scrollTo({
+						element: '#home',
+						duration: 2000,
+						onStart: () => ($isMenuClicked = true),
+						onDone: () => ($isMenuClicked = false)
+					})}
+			>
 				<span class="icon">
 					<div class="i-iconoir-home-alt" />
 				</span>
@@ -18,29 +27,41 @@
 			</a>
 		</li>
 		<li
-			class="list {active_page == 'photos' ? 'active' : ''}"
-			on:click={() => (active_page = 'photos')}
-			on:keydown={() => (active_page = 'photos')}
+			class="list {$activePage == 'education' ? 'active' : ''}"
+			on:click={() => ($activePage = 'education')}
+			on:keydown={() => ($activePage = 'education')}
 		>
 			<a
-				href="#photos"
-				on:click={() => animateScroll.scrollTo({ element: '#photos', duration: 2000 })}
+				href="#education"
+				on:click={() =>
+					animateScroll.scrollTo({
+						element: '#education',
+						duration: 2000,
+						onStart: () => ($isMenuClicked = true),
+						onDone: () => ($isMenuClicked = false)
+					})}
 			>
 				<span class="icon">
-					<div class="i-iconoir-camera" />
+					<div class="i-iconoir-learning" />
 				</span>
-				<span class="text">Photos</span>
+				<span class="text">Career</span>
 			</a>
 		</li>
 
 		<li
-			class="list {active_page == 'profile' ? 'active' : ''}"
-			on:click={() => (active_page = 'profile')}
-			on:keydown={() => (active_page = 'profile')}
+			class="list {$activePage == 'profile' ? 'active' : ''}"
+			on:click={() => ($activePage = 'profile')}
+			on:keydown={() => ($activePage = 'profile')}
 		>
 			<a
 				href="#profile"
-				on:click={() => animateScroll.scrollTo({ element: '#profile', duration: 2000 })}
+				on:click={() =>
+					animateScroll.scrollTo({
+						element: '#profile',
+						duration: 2000,
+						onStart: () => ($isMenuClicked = true),
+						onDone: () => ($isMenuClicked = false)
+					})}
 			>
 				<span class="icon">
 					<div class="i-iconoir-user" />
@@ -50,26 +71,41 @@
 		</li>
 
 		<li
-			class="list {active_page == 'code' ? 'active' : ''}"
-			on:click={() => (active_page = 'code')}
-			on:keydown={() => (active_page = 'code')}
+			class="list {$activePage == 'motivation' ? 'active' : ''}"
+			on:click={() => ($activePage = 'motivation')}
+			on:keydown={() => ($activePage = 'motivation')}
 		>
-			<a href="#code" on:click={() => animateScroll.scrollTo({ element: '#code', duration: 2000 })}>
+			<a
+				href="#motivation"
+				on:click={() =>
+					animateScroll.scrollTo({
+						element: '#motivation',
+						duration: 2000,
+						onStart: () => ($isMenuClicked = true),
+						onDone: () => ($isMenuClicked = false)
+					})}
+			>
 				<span class="icon">
-					<div class="i-iconoir-code" />
+					<div class="i-iconoir-light-bulb-on" />
 				</span>
-				<span class="text">Code</span>
+				<span class="text">Skills</span>
 			</a>
 		</li>
 
 		<li
-			class="list {active_page == 'contact' ? 'active' : ''}"
-			on:click={() => (active_page = 'contact')}
-			on:keydown={() => (active_page = 'contact')}
+			class="list {$activePage == 'contact' ? 'active' : ''}"
+			on:click={() => ($activePage = 'contact')}
+			on:keydown={() => ($activePage = 'contact')}
 		>
 			<a
 				href="#contact"
-				on:click={() => animateScroll.scrollTo({ element: '#contact', duration: 2000 })}
+				on:click={() =>
+					animateScroll.scrollTo({
+						element: '#contact',
+						duration: 2000,
+						onStart: () => ($isMenuClicked = true),
+						onDone: () => ($isMenuClicked = false)
+					})}
 			>
 				<span class="icon">
 					<div class="i-iconoir-message" />
