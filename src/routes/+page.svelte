@@ -2,6 +2,10 @@
 	import Navbar from '$lib/navbar.svelte';
 	import { AnimatedHeadline } from 'svelte-animated-headline';
 	import { activePage, isMenuClicked } from '$lib/store.js';
+	import { dev } from '$app/environment';
+	import { inject } from '@vercel/analytics';
+
+	inject({ mode: dev ? 'development' : 'production' });
 
 	let shuffle = (list) => list.sort((a, b) => 0.5 - Math.random());
 	let yPosition: number;
