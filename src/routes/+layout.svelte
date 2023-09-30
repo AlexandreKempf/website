@@ -1,7 +1,12 @@
 <script>
 	import '@unocss/reset/eric-meyer.css';
 	import 'animate.css';
-	import { Analytics } from '@vercel/analytics/react';
+	// Import the Analytics package, and the SvelteKit dev variable.
+	import { dev } from '$app/environment';
+	import { inject } from '@vercel/analytics';
+
+	// Inject the Analytics functionality
+	inject({ mode: dev ? 'development' : 'production' });
 </script>
 
 <div class="overflow-hidden background" id="home">
@@ -10,7 +15,6 @@
 	<div id="stars3" />
 	<slot />
 </div>
-<Analytics />
 
 <style uno:preflights uno:safelist global>
 	.background {
