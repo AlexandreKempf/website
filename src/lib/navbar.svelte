@@ -42,7 +42,7 @@
 					})}
 			>
 				<span class="icon">
-					<div class="i-iconoir-learning" />
+					<div class="i-iconoir-path-arrow" />
 				</span>
 				<span class="text">Career</span>
 			</a>
@@ -86,7 +86,7 @@
 					})}
 			>
 				<span class="icon">
-					<div class="i-iconoir-light-bulb-on" />
+					<div class="i-iconoir-wrench" />
 				</span>
 				<span class="text">Skills</span>
 			</a>

@@ -147,7 +147,7 @@
 	<div class="h-400" />
 	<div id="motivation">
 		<div class="mt-70 ml-56% w-30%">
-			<p class="text-3xl text-white">
+			<p class="text-3vw lg:text-2vw text-white">
 				I've always been a fan of <em class="text-#00ff0a">open source</em>. All my personal
 				projects are on
 				<a href="https://github.com/AlexandreKempf" class="text-white">github</a>.<br /> I currently
@@ -163,14 +163,14 @@
 			</p>
 		</div>
 		<div class="mt-20 ml-14% w-30%">
-			<p class="text-3xl text-white text-right">
+			<p class="text-3vw lg:text-2vw text-white text-right">
 				I love <em class="text-#00ff0a">data pipeline</em>. <br />I use them on a daily basis since
 				2018. I created my own tools then discovered <em class="font-bold">DVC</em> in 2019 and my life
 				changed for the better.
 			</p>
 		</div>
 		<div class="mt-20 ml-56% w-30%">
-			<p class="text-3xl text-white">
+			<p class="text-3vw lg:text-2vw text-white">
 				I work with <em class="text-#00ff0a">distributed processes</em> since 2018. <br />
 				I maintained a 3GPUs & 8CPUs python app for real-time analysis of twitch streams. <br />
 				I created several MLops pipeline on cloud or homemade servers (2GPUs 32CPUs cores) and optimized
@@ -178,16 +178,16 @@
 			</p>
 		</div>
 		<div class="mt-20 ml-14% w-30%">
-			<p class="text-3xl text-white text-right">
-				I'm working <em class="text-#00ff0a">full remote</em> since 2021. Loving my life at home
-				with my gf, my cats, and the fridge nearby. <br />
-				I stay in contact with my team thanks to
+			<p class="text-3vw lg:text-2vw text-white text-right">
+				I'm working <em class="text-#00ff0a">full remote</em> since 2021. Loving life at home with a
+				gf, cats, and the fridge nearby. <br />
+				I'm very social and stay in touch with
 				<em class="font-bold">Notion</em>, <em class="font-bold">Slack</em> and the
 				<em class="font-bold">Agile</em> methods.
 			</p>
 		</div>
 		<div class="mt-20 ml-56% w-30%">
-			<p class="text-3xl text-white">
+			<p class="text-3vw lg:text-2vw text-white">
 				I love to <em class="text-#00ff0a">learn</em> and I'm always
 				<em class="text-#00ff0a">up for challenges</em>. I learned computer science and datascience
 				as an autodidact, and I'm now a proficient fullstack datascientist / python engineer,
