@@ -38,19 +38,17 @@
 	];
 
 	function menuBasedOnPositon(yPosition) {
-		console.log(yPosition);
 		if (yPosition <= 840) {
 			$activePage = 'home';
 		} else if (yPosition <= 2760) {
 			$activePage = 'education';
 		} else if (yPosition <= 4920) {
 			$activePage = 'profile';
-		} else if (yPosition <= 7000) {
+		} else if (yPosition <= 6800) {
 			$activePage = 'motivation';
-		} else if (yPosition > 7000) {
+		} else if (yPosition > 6800) {
 			$activePage = 'contact';
 		}
-		console.log(yPosition);
 	}
 	$: {
 		yPosition;
@@ -290,7 +288,7 @@
 		bottom: 0;
 		width: 100%;
 		height: 100px;
-		background: url('wave.png');
+		background: url('$lib/wave.png');
 		background-size: 1000px 100px;
 	}
 	.wave#wave1 {
