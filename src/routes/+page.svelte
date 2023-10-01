@@ -22,13 +22,19 @@
 		'Georges Brassens',
 		'Django Reinhardt'
 	];
-	let thingsIHate: string[] = ['Beamer presentation', 'javascript', 'eating cold', 'coffee', 'W&B'];
+	let thingsIHate: string[] = [
+		'Beamer presentation',
+		"javascript's ==",
+		'eating cold',
+		'coffee',
+		'W&B'
+	];
 	let thingsIWant: string[] = [
 		'finish an Ironman',
 		'contribute to open source',
 		'be GC in Rocket League',
 		'sail through the atlantic',
-		'work for iterative.ai on DVCx'
+		'work for iterative.ai on DVCx or DQL'
 	];
 
 	function menuBasedOnPositon(yPosition) {
@@ -147,11 +153,36 @@
 		</div>
 	</div>
 	<div class="relative">
-		<img src="cloud1.webp" style="--i:1;" class="clouds absolute op-70" />
-		<img src="cloud2.webp" style="--i:2;" class="clouds absolute op-80" />
-		<img src="cloud3.webp" style="--i:3;" class="clouds absolute op-90" />
-		<img src="cloud4.webp" style="--i:4;" class="clouds absolute op-80" />
-		<img src="cloud5.webp" style="--i:5;" class="clouds absolute op-70" />
+		<img
+			src="cloud1.webp"
+			alt="cloud for illustration"
+			style="--i:1;"
+			class="clouds absolute op-70"
+		/>
+		<img
+			src="cloud2.webp"
+			alt="cloud for illustration"
+			style="--i:2;"
+			class="clouds absolute op-80"
+		/>
+		<img
+			src="cloud3.webp"
+			alt="cloud for illustration"
+			style="--i:3;"
+			class="clouds absolute op-90"
+		/>
+		<img
+			src="cloud4.webp"
+			alt="cloud for illustration"
+			style="--i:4;"
+			class="clouds absolute op-80"
+		/>
+		<img
+			src="cloud5.webp"
+			alt="cloud for illustration"
+			style="--i:5;"
+			class="clouds absolute op-70"
+		/>
 	</div>
 	<div class="h-400" />
 	<div id="motivation">
