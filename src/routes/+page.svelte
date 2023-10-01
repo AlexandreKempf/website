@@ -179,7 +179,7 @@
 		</div>
 		<div class="mt-20 ml-14% w-30%">
 			<p class="text-3vw lg:text-2vw text-white text-right">
-				I'm working <em class="text-#00ff0a">full remote</em> since 2021. Loving life at home with a
+				I'm working <em class="text-#00ff0a">full remote</em> since 2020. Loving life at home with a
 				gf, cats, and the fridge nearby. <br />
 				I'm very social and stay in touch with
 				<em class="font-bold">Notion</em>, <em class="font-bold">Slack</em> and the
