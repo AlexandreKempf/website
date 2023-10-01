@@ -68,7 +68,7 @@
 	<div id="education" class="pt-30 flex flex-col items-center">
 		<a
 			href="https://www.edu.bio.ens.psl.eu/spip.php?rubrique44&lang=en"
-			class="square w-70 h-70 -left-20%"
+			class="square w-70 h-70 -left-20% no-underline hover:underline hover:decoration-white"
 		>
 			<i style="--clr:#00ff0a;" />
 			<i style="--clr:#e91e63;" />
@@ -80,7 +80,10 @@
 				<p class="text-white text-center">neurosciences <br />& maths</p>
 			</div>
 		</a>
-		<a href="https://www.bathellier-lab.org/" class="square w-120 h-120 left-30%">
+		<a
+			href="https://www.bathellier-lab.org/"
+			class="square w-120 h-120 left-30% no-underline hover:underline hover:decoration-white"
+		>
 			<i style="--clr:#00ff0a;" />
 			<i style="--clr:#e91e63;" />
 			<i style="--clr:#fffd44;" />
@@ -92,7 +95,10 @@
 			</div>
 		</a>
 
-		<a href="https://pandascore.co/" class="square w-100 h-100 -left-30%">
+		<a
+			href="https://pandascore.co/"
+			class="square w-100 h-100 -left-15% no-underline hover:underline hover:decoration-white"
+		>
 			<i style="--clr:#00ff0a;" />
 			<i style="--clr:#e91e63;" />
 			<i style="--clr:#fffd44;" />
@@ -104,7 +110,10 @@
 			</div>
 		</a>
 
-		<a href="https://www.lixo.tech/english/en" class="square w-70 h-70 left-20%">
+		<a
+			href="https://www.lixo.tech/english/en"
+			class="square w-70 h-70 left-20% no-underline hover:underline hover:decoration-white"
+		>
 			<i style="--clr:#00ff0a;" />
 			<i style="--clr:#e91e63;" />
 			<i style="--clr:#fffd44;" />
@@ -147,7 +156,7 @@
 	<div class="h-400" />
 	<div id="motivation">
 		<div class="mt-70 ml-56% w-30%">
-			<p class="text-3vw lg:text-2vw text-white">
+			<p class="text-xl lg:text-2xl text-white">
 				I've always been a fan of <em class="text-#00ff0a">open source</em>. All my personal
 				projects are on
 				<a href="https://github.com/AlexandreKempf" class="text-white">github</a>.<br /> I currently
@@ -161,14 +170,14 @@
 			</p>
 		</div>
 		<div class="mt-20 ml-14% w-30%">
-			<p class="text-3vw lg:text-2vw text-white text-right">
+			<p class="text-xl lg:text-2xl text-white text-right">
 				I love <em class="text-#00ff0a">data pipeline</em>. <br />I use them on a daily basis since
 				2018. I created my own tools then discovered <em class="font-bold">DVC</em> in 2019 and my life
 				changed for the better.
 			</p>
 		</div>
 		<div class="mt-20 ml-56% w-30%">
-			<p class="text-3vw lg:text-2vw text-white">
+			<p class="text-xl lg:text-2xl text-white">
 				I work with <em class="text-#00ff0a">distributed processes</em> since 2018. <br />
 				I maintained a 3GPUs & 8CPUs python app for real-time analysis of twitch streams. <br />
 				I created several MLops pipeline on cloud or homemade servers (2GPUs 32CPUs cores) and optimized
@@ -176,7 +185,7 @@
 			</p>
 		</div>
 		<div class="mt-20 ml-14% w-30%">
-			<p class="text-3vw lg:text-2vw text-white text-right">
+			<p class="text-xl lg:text-2xl text-white text-right">
 				I'm working <em class="text-#00ff0a">full remote</em> since 2020. Loving life at home with a
 				gf, cats, and the fridge nearby. <br />
 				I'm very social and stay in touch with
@@ -185,7 +194,7 @@
 			</p>
 		</div>
 		<div class="mt-20 ml-56% w-30%">
-			<p class="text-3vw lg:text-2vw text-white">
+			<p class="text-xl lg:text-2xl text-white">
 				I love to <em class="text-#00ff0a">learn</em> and I'm always
 				<em class="text-#00ff0a">up for challenges</em>. I learned computer science and datascience
 				as an autodidact, and I'm now a proficient fullstack datascientist / python engineer,
@@ -200,7 +209,7 @@
 			<a href="tel:+33611503661" class="no-underline hover:underline hover:decoration-white">
 				<div class="flex flex-col items-center">
 					<div class="i-iconoir-phone m-10 text-white w-10 h-10" />
-					<p class="text-3xl text-white no-underline">+336 11 50 36 61</p>
+					<p class="text-xl text-white no-underline">+336 11 50 36 61</p>
 				</div>
 			</a>
 
@@ -210,7 +219,7 @@
 			>
 				<div class="flex flex-col items-center">
 					<div class="i-iconoir-mail m-10 text-white w-10 h-10" />
-					<p class="text-3xl text-white no-underline">alexandre.kempf<br />@cri-paris.org</p>
+					<p class="text-xl text-white no-underline">alexandre.kempf<br />@cri-paris.org</p>
 				</div>
 			</a>
 			<a
@@ -219,7 +228,7 @@
 			>
 				<div class="flex flex-col items-center">
 					<div class="i-iconoir-instagram m-10 text-white w-10 h-10" />
-					<p class="text-3xl text-white no-underline">pizzas_never_lie</p>
+					<p class="text-xl text-white no-underline">pizzas_never_lie</p>
 				</div>
 			</a>
 			<a
@@ -228,7 +237,7 @@
 			>
 				<div class="flex flex-col items-center">
 					<div class="i-iconoir-facebook m-10 text-white w-10 h-10" />
-					<p class="text-3xl text-white">Alexandre Kempf</p>
+					<p class="text-xl text-white">Alexandre Kempf</p>
 				</div>
 			</a>
 		</div>
