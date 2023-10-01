@@ -133,20 +133,20 @@
 	<div id="profile">
 		<div class="m-8 pt-70 text-xl text-white w-100% mx-auto text-center">
 			<p class="text-white">
-				I <span>💚</span>
+				I <span>❤️ </span>
 				<AnimatedHeadline texts={shuffle(thingsILove)} y={30} wait={1000} slide={500} fade={300} />
 			</p>
 		</div>
 		<div class="m-8 text-xl text-white w-100% mx-auto text-center">
 			<p class="text-white">
-				I <span>💩</span>
-				<AnimatedHeadline texts={shuffle(thingsIHate)} y={30} wait={1000} slide={500} fade={200} />
+				I would <span>❤️</span> to
+				<AnimatedHeadline texts={shuffle(thingsIWant)} y={30} wait={1000} slide={500} fade={250} />
 			</p>
 		</div>
 		<div class="m-8 text-xl text-white w-100% mx-auto text-center">
 			<p class="text-white">
-				I would <span>💚</span> to
-				<AnimatedHeadline texts={shuffle(thingsIWant)} y={30} wait={1000} slide={500} fade={250} />
+				I <span>💔 </span>
+				<AnimatedHeadline texts={shuffle(thingsIHate)} y={30} wait={1000} slide={500} fade={200} />
 			</p>
 		</div>
 	</div>
