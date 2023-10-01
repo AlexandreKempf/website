@@ -153,13 +153,11 @@
 				<a href="https://github.com/AlexandreKempf" class="text-white">github</a>.<br /> I currently
 				have 41 repos and 88 ⭐. <br />The ones I like the most are:
 				<br />-
-				<a href="https://github.com/AlexandreKempf/spy-game" class="text-white">spy-game</a>
+				<a href="https://spy-game-three.vercel.app/" class="text-white">spy-game</a>
 				<br />-
-				<a href="https://github.com/AlexandreKempf/svelte-slides" class="text-white"
-					>svelte-slides</a
-				>
+				<a href="https://svelte-slides.vercel.app/" class="text-white">svelte-slides</a>
 				<br />-
-				<a href="https://github.com/AlexandreKempf/svelte-apex" class="text-white">svelte-apex</a>
+				<a href="https://svelte-apex-examples.vercel.app/" class="text-white">svelte-apex</a>
 			</p>
 		</div>
 		<div class="mt-20 ml-14% w-30%">
