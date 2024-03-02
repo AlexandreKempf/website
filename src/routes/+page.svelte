@@ -4,37 +4,34 @@
 	import { activePage, isMenuClicked } from '$lib/store.js';
 	import { dev } from '$app/environment';
 	import { inject } from '@vercel/analytics';
+	import Layout from './+layout.svelte';
 
 	inject({ mode: dev ? 'development' : 'production' });
 
 	let shuffle = (list) => list.sort((a, b) => 0.5 - Math.random());
 	let yPosition: number;
 	let thingsILove: string[] = [
-		'DVC',
+		'open source',
 		'Svelte',
 		'neurosciences',
 		'data science',
 		'UnoCSS',
+		'roboflow',
 		'functional programming',
 		'video games',
 		'T1 Faker',
+		'create tools for data scientists',
 		'Markdown',
 		'Georges Brassens',
-		'Django Reinhardt'
+		'Django Reinhardt',
+		'helping people'
 	];
-	let thingsIHate: string[] = [
-		'Beamer presentation',
-		"javascript's ==",
-		'eating cold',
-		'coffee',
-		'W&B'
-	];
+	let thingsIHate: string[] = ['Beamer presentation', "javascript's ==", 'eating cold', 'coffee'];
 	let thingsIWant: string[] = [
 		'finish an Ironman',
-		'contribute to open source',
 		'be GC in Rocket League',
 		'sail through the atlantic',
-		'work for iterative.ai on DVCx or DQL'
+		'work as a Machine Learning Lead at Roboflow'
 	];
 
 	function menuBasedOnPositon(yPosition) {
@@ -86,7 +83,7 @@
 		</a>
 		<a
 			href="https://www.bathellier-lab.org/"
-			class="square w-120 h-120 left-30% no-underline hover:underline hover:decoration-white"
+			class="square w-120 h-120 left-25% no-underline hover:underline hover:decoration-white"
 		>
 			<i style="--clr:#00ff0a;" />
 			<i style="--clr:#e91e63;" />
@@ -109,7 +106,7 @@
 			<div class="flex flex-col items-center">
 				<img src="planet3.png" alt="pic1" class="w-70% m-3" />
 				<p class="text-white text-center">2018-2022</p>
-				<p class="text-xl text-white font-bold">Datascientist</p>
+				<p class="text-xl text-white font-bold">Data Scientist</p>
 				<p class="text-white text-center">computer vision <br />& MLops</p>
 			</div>
 		</a>
@@ -124,8 +121,22 @@
 			<div class="flex flex-col items-center">
 				<img src="planet4.png" alt="pic1" class="w-50% m-3" />
 				<p class="text-white text-center">2022-now</p>
-				<p class="text-xl text-white font-bold text-center">Lead R&D <br />Datascientist</p>
+				<p class="text-xl text-white font-bold text-center">Machine Learning <br />Lead R&D</p>
 				<p class="text-white text-center">computer vision <br />& MLops</p>
+			</div>
+		</a>
+		<a
+			href="https://dvc.ai/"
+			class="square w-100 h-100 -left-10% no-underline hover:underline hover:decoration-white"
+		>
+			<i style="--clr:#00ff0a;" />
+			<i style="--clr:#e91e63;" />
+			<i style="--clr:#fffd44;" />
+			<div class="flex flex-col items-center">
+				<img src="planet5.png" alt="pic1" class="w-40% m-3" />
+				<p class="text-white text-center">2024-now</p>
+				<p class="text-xl text-white font-bold text-center">Senior Product Engineer</p>
+				<p class="text-white text-center">MLops and open source</p>
 			</div>
 		</a>
 	</div>
@@ -184,12 +195,12 @@
 	</div>
 	<div class="h-400" />
 	<div id="motivation">
-		<div class="mt-70 ml-56% w-30%">
+		<div class="mt-70 ml-56% w-35%">
 			<p class="text-xl lg:text-2xl text-white">
-				I've always been a fan of <em class="text-#00ff0a">open source</em>. All my personal
-				projects are on
+				I've always been a fan of <em class="text-#00ff0a">computer vision</em> and
+				<em class="text-#00ff0a">open source</em>. All my personal projects are on
 				<a href="https://github.com/AlexandreKempf" class="text-white">github</a>.<br /> I currently
-				have 41 repos and 88 ⭐. <br />The ones I like the most are:
+				have 42 repos and 93 ⭐. <br />The ones I like the most are:
 				<br />-
 				<a href="https://spy-game-three.vercel.app/" class="text-white">spy-game</a>
 				<br />-
@@ -198,22 +209,26 @@
 				<a href="https://svelte-apex-examples.vercel.app/" class="text-white">svelte-apex</a>
 			</p>
 		</div>
-		<div class="mt-20 ml-14% w-30%">
+		<div class="mt-20 ml-10% w-35%">
 			<p class="text-xl lg:text-2xl text-white text-right">
-				I love <em class="text-#00ff0a">data pipeline</em>. <br />I use them on a daily basis since
-				2018. I created my own tools then discovered <em class="font-bold">DVC</em> in 2019 and my life
-				changed for the better.
+				I love <em class="text-#00ff0a">creating tools</em> for data scientists. I know the needs
+				and use my experience to create my own tooling for data gathering, model creation, model
+				training, etc. I would love to work at Roboflow so that these tools and ideas benefits a
+				larger community. <br />
+				The more people I help, the happier I am.
 			</p>
 		</div>
-		<div class="mt-20 ml-56% w-30%">
+		<div class="mt-20 ml-56% w-35%">
 			<p class="text-xl lg:text-2xl text-white">
-				I work with <em class="text-#00ff0a">distributed processes</em> since 2018. <br />
-				I maintained a 3GPUs & 8CPUs python app for real-time analysis of twitch streams. <br />
-				I created several MLops pipeline on cloud or homemade servers (2GPUs 32CPUs cores) and optimized
-				them to reduce training time by 2. Datasets were usually between 100Go and 1To.
+				I work with <em class="text-#00ff0a">computer vision</em> and
+				<em class="text-#00ff0a">deep learning</em> since 2015. <br />
+				I gathered and annotated several To of images and videos, developped models used by clients for
+				more than 50 different usecases. All these usecases were on real-time computer vision problems.
+				I lead (or co-lead) teams of 3 to 6 datascientists and have experience working with R&D and production
+				needs.
 			</p>
 		</div>
-		<div class="mt-20 ml-14% w-30%">
+		<div class="mt-20 ml-10% w-35%">
 			<p class="text-xl lg:text-2xl text-white text-right">
 				I'm working <em class="text-#00ff0a">full remote</em> since 2020. Loving life at home with a
 				gf, cats, and the fridge nearby. <br />
@@ -222,12 +237,11 @@
 				<em class="font-bold">Agile</em> methods.
 			</p>
 		</div>
-		<div class="mt-20 ml-56% w-30%">
+		<div class="mt-20 ml-56% w-35%">
 			<p class="text-xl lg:text-2xl text-white">
 				I love to <em class="text-#00ff0a">learn</em> and I'm always
 				<em class="text-#00ff0a">up for challenges</em>. I learned computer science and datascience
-				as an autodidact, and I'm now a proficient fullstack datascientist / python engineer,
-				working on real-time video processing and R&D deep learning topics.
+				as an autodidact, and I'm now a proficient fullstack datascientist / MLops engineer.
 			</p>
 		</div>
 	</div>
