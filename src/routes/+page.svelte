@@ -120,7 +120,7 @@
 			<i style="--clr:#fffd44;" />
 			<div class="flex flex-col items-center">
 				<img src="planet4.png" alt="pic1" class="w-50% m-3" />
-				<p class="text-white text-center">2022-now</p>
+				<p class="text-white text-center">2022-2024</p>
 				<p class="text-xl text-white font-bold text-center">Machine Learning <br />Lead R&D</p>
 				<p class="text-white text-center">computer vision <br />& MLops</p>
 			</div>
@@ -137,6 +137,7 @@
 				<p class="text-white text-center">2024-now</p>
 				<p class="text-xl text-white font-bold text-center">Senior Product Engineer</p>
 				<p class="text-white text-center">MLops and open source</p>
+				<p class="text-white text-center mt-1">Laid off after a pivot to DVCx</p>
 			</div>
 		</a>
 	</div>
