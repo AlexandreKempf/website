@@ -20,7 +20,7 @@
 		'functional programming',
 		'video games',
 		'T1 Faker',
-		'create tools for data scientists',
+		'to create tools for data scientists',
 		'Markdown',
 		'Georges Brassens',
 		'Django Reinhardt',
