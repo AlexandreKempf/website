@@ -16,7 +16,6 @@
 		'neurosciences',
 		'data science',
 		'UnoCSS',
-		'roboflow',
 		'functional programming',
 		'video games',
 		'T1 Faker',
@@ -30,8 +29,7 @@
 	let thingsIWant: string[] = [
 		'finish an Ironman',
 		'be GC in Rocket League',
-		'sail through the atlantic',
-		'work as a Machine Learning Lead at Roboflow'
+		'sail through the atlantic'
 	];
 
 	function menuBasedOnPositon(yPosition) {
@@ -137,7 +135,7 @@
 				<p class="text-white text-center">2024-now</p>
 				<p class="text-xl text-white font-bold text-center">Senior Product Engineer</p>
 				<p class="text-white text-center">MLops and open source</p>
-				<p class="text-white text-center mt-1">Laid off after a pivot to DVCx</p>
+				<p class="text-white text-center mt-1">Laid off after a pivot to another product</p>
 			</div>
 		</a>
 	</div>
@@ -212,21 +210,20 @@
 		</div>
 		<div class="mt-20 ml-10% w-35%">
 			<p class="text-xl lg:text-2xl text-white text-right">
-				I love <em class="text-#00ff0a">creating tools</em> for data scientists. I know the needs
-				and use my experience to create my own tooling for data gathering, model creation, model
-				training, etc. I would love to work at Roboflow so that these tools and ideas benefits a
-				larger community. <br />
-				The more people I help, the happier I am.
+				I work with <em class="text-#00ff0a">computer vision</em> and
+				<em class="text-#00ff0a">deep learning</em> since 2015. <br />
+				I gathered and annotated millions of images and videos, developped models used by clients for
+				more than 50 different usecases. All these usecases were on real-time computer vision problems.
+				I lead (or co-lead) teams of 3 to 6 datascientists and have experience working with R&D and production
+				needs.
 			</p>
 		</div>
 		<div class="mt-20 ml-56% w-35%">
 			<p class="text-xl lg:text-2xl text-white">
-				I work with <em class="text-#00ff0a">computer vision</em> and
-				<em class="text-#00ff0a">deep learning</em> since 2015. <br />
-				I gathered and annotated several To of images and videos, developped models used by clients for
-				more than 50 different usecases. All these usecases were on real-time computer vision problems.
-				I lead (or co-lead) teams of 3 to 6 datascientists and have experience working with R&D and production
-				needs.
+				I love <em class="text-#00ff0a">creating tools</em> for data scientists. I know the needs
+				and use my experience to create my own tooling for data gathering, model creation, model
+				training, etc. <br /> The more people I help, the happier I am. That is why I fit well in a start
+				up environment, because I can adapt to the needs of the company and the clients.
 			</p>
 		</div>
 		<div class="mt-20 ml-10% w-35%">
@@ -241,8 +238,10 @@
 		<div class="mt-20 ml-56% w-35%">
 			<p class="text-xl lg:text-2xl text-white">
 				I love to <em class="text-#00ff0a">learn</em> and I'm always
-				<em class="text-#00ff0a">up for challenges</em>. I learned computer science and datascience
-				as an autodidact, and I'm now a proficient fullstack datascientist / MLops engineer.
+				<em class="text-#00ff0a">up for challenges</em>. I was trained a biologist (neuroscience
+				degree) but I learned computer science and datascience as an autodidact. I'm now a
+				proficient fullstack datascientist / MLops engineer with extensive knowledge in biology and
+				neurosciences.
 			</p>
 		</div>
 	</div>
