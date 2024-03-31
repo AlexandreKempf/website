@@ -250,7 +250,7 @@
 	<div id="contact">
 		<div class="pt-70 w-80% mx-auto flex justify-between flex-wrap">
 			<a href="tel:+33611503661" class="no-underline hover:underline hover:decoration-white">
-				<div class="flex flex-col items-center">
+				<div class="flex flex-col items-center w-50">
 					<div class="i-iconoir-phone m-10 text-white w-10 h-10" />
 					<p class="text-xl text-white no-underline">+336 11 50 36 61</p>
 				</div>
@@ -260,16 +260,22 @@
 				href="mailto: alexandre.kempf@cri-paris.org"
 				class="no-underline hover:underline hover:decoration-white"
 			>
-				<div class="flex flex-col items-center">
+				<div class="flex flex-col items-center w-50">
 					<div class="i-iconoir-mail m-10 text-white w-10 h-10" />
 					<p class="text-xl text-white no-underline">alexandre.kempf<br />@cri-paris.org</p>
+				</div>
+			</a>
+			<a href="CV_alexandre_kempf.pdf" class="no-underline hover:underline hover:decoration-white">
+				<div class="flex flex-col items-center w-50">
+					<div class="i-iconoir-cloud-download m-10 text-white w-10 h-10" />
+					<p class="text-xl text-white">Resume</p>
 				</div>
 			</a>
 			<a
 				href="https://www.instagram.com/pizzas_never_lie/"
 				class="no-underline hover:underline hover:decoration-white"
 			>
-				<div class="flex flex-col items-center">
+				<div class="flex flex-col items-center w-50">
 					<div class="i-iconoir-instagram m-10 text-white w-10 h-10" />
 					<p class="text-xl text-white no-underline">pizzas_never_lie</p>
 				</div>
@@ -278,7 +284,7 @@
 				href="https://www.facebook.com/alexandre.kempf.73/"
 				class="no-underline hover:underline hover:decoration-white"
 			>
-				<div class="flex flex-col items-center">
+				<div class="flex flex-col items-center w-50">
 					<div class="i-iconoir-facebook m-10 text-white w-10 h-10" />
 					<p class="text-xl text-white">Alexandre Kempf</p>
 				</div>
