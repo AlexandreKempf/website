@@ -35,7 +35,7 @@
 		'finish an Ironman',
 		'work with AI and neurosciences',
 		'be GC in Rocket League',
-		'sail through the atlantic'
+		'cross the atlantic on a sailing boat'
 	];
 
 	function menuBasedOnPositon(yPosition: number) {
@@ -215,44 +215,49 @@
 	<div id="motivation">
 		<div class="mt-70 w-90% mx-auto lg:ml-56% lg:w-35%">
 			<p class="text-xl lg:text-2xl text-white">
-				I've always loved neurosciences, data science and computer science. After a master degree
-				from the ENS Ulm, I obtained a <em class="text-#00ff0a"
-					>PhD degree in neuroscience and machine learning</em
-				>. This work contribute to the creation of HearLight, a startup project, by my PhD
-				supervisor, and to the publication of 4 articles in international neuroscience journals.
-				<em class="text-#00ff0a">I specialized in AI, software development and Dev/MLops</em>
-				after my PhD, while I worked for several start-ups. I contributed to the scale up of these company
-				by providing efficient tools and models, to make them profitable (Pandascore and Lixo). Until
-				now I've never had the chance to work both in neuroscience and computer science, but I believe
+				I've always loved neurosciences, data science and computer science. <br />After a master
+				degree from the ENS Ulm, I obtained a
+				<em class="text-#00ff0a">PhD degree in neurosciences and machine learning</em>. My work lead
+				to the creation of 6 scientific articles published in international journals, and to the
+				creation of HearLight, a startup founded by my PhD supervisor. <br />
+				<em class="text-#00ff0a"
+					>After the PhD, I specialized in AI, software development and Dev/MLops</em
+				>
+				working in start-ups: Pandascore, Lixo, DVC, Deemea. I contributed to the scale up of these companies
+				by providing efficient tools and AI models. <br /> Until now I've never had the chance to
+				work in neuroscience and computer science, but I believe
 				<em class="text-#00ff0a">Brain&Mind</em> is the perfect structure to do so.
 			</p>
 		</div>
 		<div class="mt-20 w-90% mx-auto lg:ml-10% lg:w-35%">
 			<p class="text-xl lg:text-2xl text-white lg:text-right">
-				During my free time I also enjoy to join neuroscience and code. I created 2 softwares for a
-				neuropsychologist (
-				<a class="text-#00ff0a" href="https://attention-auditive.vercel.app/">link</a>
-				and <a class="text-#00ff0a" href="https://reponses-associees.vercel.app/">link</a>
-				) and a tool to automate cognitifs reports generation. I also built a website to help the diagnosis
-				of endometriosis called
-				<a class="text-#00ff0a" href="https://endometric.vercel.app">endometric</a>. These projects
-				are open source and can be found on my github profile. I love to create tools and by doing
-				them I learnt to become <em class="text-#00ff0a">efficient at software prototyping</em>,
-				website development and AI generation. I'm
-				<em class="text-#00ff0a">currently working on a mobile app</em> as a side project that involves
-				AI and graphQL.
+				During my free time I code neuroscience projects: 2 softwares for neurocognitive tests (<a
+					class="text-#00ff0a"
+					href="https://attention-auditive.vercel.app/">link</a
+				>
+				and <a class="text-#00ff0a" href="https://reponses-associees.vercel.app/">link</a>) and a
+				tool to automate neuropsychologist reports generation. Among other projects, I also built a
+				website to help the diagnosis of endometriosis called
+				<a class="text-#00ff0a" href="https://endometric.vercel.app">endometric</a>. Most of my
+				projects are open source and can be found on my
+				<a class="text-#00ff0a" href="https://github.com/AlexandreKempf">github profile</a>. I love
+				to create tools to help other developers and by doing them I learnt to become
+				<em class="text-#00ff0a">efficient at software prototyping</em>, website development and AI
+				generation. I'm
+				<em class="text-#00ff0a">currently working on a mobile app</em> as a side project using Capacitor.
 			</p>
 		</div>
 		<div class="mt-20 w-90% mx-auto lg:ml-56% lg:w-35%">
 			<p class="text-xl lg:text-2xl text-white">
 				I had the chance to discuss with Barbara André about the Brain&Mind project and <em
 					class="text-#00ff0a">I would like to apply as a Senior Software/Consulting Engineer</em
-				>. My expertise in software development can be a precious ressource for start ups that seek
-				advice on their technical stack, and I could also guide software founders to understand key
-				neurosciences concepts. With my datascience and MLops background, I can also help AI
-				startups to scale up with quick prototyping and robust deployment strategies.
+				>. My expertise in software development and neurosciences can be a precious resource for
+				start ups that seek advice on their technical stack, or software founders to understand key
+				neurosciences concepts at any scale. With my datascience and MLops background, I can also
+				help AI startups to scale up with quick prototyping and robust deployment strategies.
 				<em class="text-#00ff0a"
-					>I believe my expertise are exactly where Brain&Mind's technical experts needs to be.</em
+					>My expertise is precisely what startups wants when they seek technical guidance from
+					Brain&Mind.</em
 				>
 			</p>
 		</div>
@@ -262,10 +267,23 @@
 				fridge nearby. <br />
 				<em class="text-#00ff0a">I'm very social</em> and stay in touch easily. For instance I
 				organize every offsite my company was planning for the last 3 years. Even though I heard
-				Brain&Mind is not a remote company, I truly think I'm a social facilitator from home and be
-				a <em class="text-#00ff0a">key asset for the team technical and socially.</em>
+				Brain&Mind is not a remote company, I truly think I'm a social facilitator and I can be a
+				<em class="text-#00ff0a">key asset for the team technicaly and socially.</em>
 			</p>
 		</div>
+	</div>
+
+	<div class="mt-20 w-90% mx-auto lg:ml-56% lg:w-35%">
+		<p class="text-xl lg:text-2xl text-white">
+			My technical stack: <br />
+			<em class="text-#00ff0a">lang:</em> python, ts, sql, rust(new)<br />
+			<em class="text-#00ff0a">AI:</em> MLP, CNN, LLM, torch<br />
+			<em class="text-#00ff0a">Devops:</em> git, CI/CD, docker, kubernetes(new), terraform(new)<br
+			/>
+			<em class="text-#00ff0a">cloud:</em> GCP, AWS, self-host<br />
+			<em class="text-#00ff0a">web:</em> svelte, tailwind, capacitor<br />
+			<em class="text-#00ff0a">other:</em> notion, monday, slack, inkscape, GIMP, blender<br />
+		</p>
 	</div>
 	<div class="h-50" />
 
