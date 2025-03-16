@@ -306,7 +306,8 @@
 			<em class="text-#00ff0a">web:</em> svelte, tailwind, capacitor(new)<br />
 			<em class="text-#00ff0a">Devops:</em> git, CI/CD, docker, dvc, grafana, loki, prometheus,
 			kubernetes(new), terraform(new)<br />
-			<em class="text-#00ff0a">other:</em> notion, monday, slack, inkscape, GIMP, blender<br />
+			<em class="text-#00ff0a">other:</em> notion, monday, slack, inkscape, GIMP, blender, godot<br
+			/>
 		</p>
 	</div>
 	<div class="h-50" />
