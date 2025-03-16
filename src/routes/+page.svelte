@@ -45,9 +45,9 @@
 			$activePage = 'education';
 		} else if (yPosition <= 4920) {
 			$activePage = 'profile';
-		} else if (yPosition <= 6800) {
+		} else if (yPosition <= 8700) {
 			$activePage = 'motivation';
-		} else if (yPosition > 6800) {
+		} else if (yPosition > 8700) {
 			$activePage = 'contact';
 		}
 	}
@@ -72,37 +72,55 @@
 	<div class="h-200" />
 	<div id="education" class="pt-30 flex flex-col items-center">
 		<a
-			href="https://www.edu.bio.ens.psl.eu/spip.php?rubrique44&lang=en"
-			class="square w-70 h-70 -left-20% no-underline hover:underline hover:decoration-white"
+			href="https://deemea.com/"
+			class="square w-70 h-70 left-10% no-underline hover:underline hover:decoration-white"
+			target="_blank"
 		>
 			<i style="--clr:#00ff0a;" />
 			<i style="--clr:#e91e63;" />
 			<i style="--clr:#fffd44;" />
 			<div class="flex flex-col items-center">
-				<img src="planet1.png" alt="pic1" class="w-40% m-3" />
-				<p class="text-white text-center">2012-2015</p>
-				<p class="text-xl text-white font-bold">master degree</p>
-				<p class="text-white text-center">neurosciences <br />& maths</p>
+				<img src="planet6.png" alt="pic1" class="w-40% m-3" />
+				<p class="text-white text-center">2024-now</p>
+				<p class="text-xl text-white font-bold text-center">Lead Data Ops</p>
+				<p class="text-white text-center">medical ops</p>
 			</div>
 		</a>
 		<a
-			href="https://www.bathellier-lab.org/"
-			class="square w-120 h-120 left-25% no-underline hover:underline hover:decoration-white"
+			href="https://dvc.ai/"
+			class="square w-100 h-100 -left-10% no-underline hover:underline hover:decoration-white"
+			target="_blank"
 		>
 			<i style="--clr:#00ff0a;" />
 			<i style="--clr:#e91e63;" />
 			<i style="--clr:#fffd44;" />
 			<div class="flex flex-col items-center">
-				<img src="planet2.png" alt="pic1" class="w-50% m-3" />
-				<p class="text-white text-center">2015-2018</p>
-				<p class="text-xl text-white font-bold">PhD degree</p>
-				<p class="text-white text-center">neurosciences <br />& data science</p>
+				<img src="planet5.png" alt="pic1" class="w-40% m-3" />
+				<p class="text-white text-center">2024-2024</p>
+				<p class="text-xl text-white font-bold text-center">Senior Product Engineer</p>
+				<p class="text-white text-center">MLops and open source</p>
 			</div>
 		</a>
 
 		<a
+			href="https://www.lixo.tech/english/en"
+			class="square w-70 h-70 left-16% no-underline hover:underline hover:decoration-white"
+			target="_blank"
+		>
+			<i style="--clr:#00ff0a;" />
+			<i style="--clr:#e91e63;" />
+			<i style="--clr:#fffd44;" />
+			<div class="flex flex-col items-center">
+				<img src="planet4.png" alt="pic1" class="w-50% m-3" />
+				<p class="text-white text-center">2022-2024</p>
+				<p class="text-xl text-white font-bold text-center">Machine Learning <br />Lead R&D</p>
+				<p class="text-white text-center">computer vision <br />& MLops</p>
+			</div>
+		</a>
+		<a
 			href="https://pandascore.co/"
 			class="square w-100 h-100 -left-15% no-underline hover:underline hover:decoration-white"
+			target="_blank"
 		>
 			<i style="--clr:#00ff0a;" />
 			<i style="--clr:#e91e63;" />
@@ -116,45 +134,33 @@
 		</a>
 
 		<a
-			href="https://www.lixo.tech/english/en"
-			class="square w-70 h-70 left-20% no-underline hover:underline hover:decoration-white"
+			href="https://www.bathellier-lab.org/"
+			class="square w-120 h-120 left-12% no-underline hover:underline hover:decoration-white"
+			target="_blank"
 		>
 			<i style="--clr:#00ff0a;" />
 			<i style="--clr:#e91e63;" />
 			<i style="--clr:#fffd44;" />
 			<div class="flex flex-col items-center">
-				<img src="planet4.png" alt="pic1" class="w-50% m-3" />
-				<p class="text-white text-center">2022-2024</p>
-				<p class="text-xl text-white font-bold text-center">Machine Learning <br />Lead R&D</p>
-				<p class="text-white text-center">computer vision <br />& MLops</p>
+				<img src="planet2.png" alt="pic1" class="w-50% m-3" />
+				<p class="text-white text-center">2015-2018</p>
+				<p class="text-xl text-white font-bold">PhD degree</p>
+				<p class="text-white text-center">neurosciences <br />& data science</p>
 			</div>
 		</a>
 		<a
-			href="https://dvc.ai/"
-			class="square w-100 h-100 -left-10% no-underline hover:underline hover:decoration-white"
+			href="https://www.edu.bio.ens.psl.eu/spip.php?rubrique44&lang=en"
+			class="square w-70 h-70 -left-10% no-underline hover:underline hover:decoration-white"
+			target="_blank"
 		>
 			<i style="--clr:#00ff0a;" />
 			<i style="--clr:#e91e63;" />
 			<i style="--clr:#fffd44;" />
 			<div class="flex flex-col items-center">
-				<img src="planet5.png" alt="pic1" class="w-40% m-3" />
-				<p class="text-white text-center">2024-2024</p>
-				<p class="text-xl text-white font-bold text-center">Senior Product Engineer</p>
-				<p class="text-white text-center">MLops and open source</p>
-			</div>
-		</a>
-		<a
-			href="https://deemea.com/"
-			class="square w-80 h-80 left-10% no-underline hover:underline hover:decoration-white"
-		>
-			<i style="--clr:#00ff0a;" />
-			<i style="--clr:#e91e63;" />
-			<i style="--clr:#fffd44;" />
-			<div class="flex flex-col items-center">
-				<img src="planet6.png" alt="pic1" class="w-40% m-3" />
-				<p class="text-white text-center">2024-now</p>
-				<p class="text-xl text-white font-bold text-center">Lead Data Ops</p>
-				<p class="text-white text-center">medical ops</p>
+				<img src="planet1.png" alt="pic1" class="w-40% m-3" />
+				<p class="text-white text-center">2012-2015</p>
+				<p class="text-xl text-white font-bold">master degree</p>
+				<p class="text-white text-center">neurosciences <br />& maths</p>
 			</div>
 		</a>
 	</div>
@@ -218,33 +224,49 @@
 				I've always loved neurosciences, data science and computer science. <br />After a master
 				degree from the ENS Ulm, I obtained a
 				<em class="text-#00ff0a">PhD degree in neurosciences and machine learning</em>. My work lead
-				to the creation of 6 scientific articles published in international journals, and to the
-				creation of HearLight, a startup founded by my PhD supervisor. <br />
-				<em class="text-#00ff0a"
-					>After the PhD, I specialized in AI, software development and Dev/MLops</em
+				to the creation of
+				<a
+					class="text-#00ff0a"
+					href="https://scholar.google.com/citations?user=ZZw5eWoAAAAJ&hl=fr&oi=ao"
+					target="_blank">6 scientific articles</a
 				>
+				published in international journals, and to the creation of HearLight, a startup founded by my
+				PhD supervisor. <br />
+				After the PhD, I specialized in
+				<em class="text-#00ff0a">AI, software development and Dev/MLops</em>
 				working in start-ups: Pandascore, Lixo, DVC, Deemea. I contributed to the scale up of these companies
-				by providing efficient tools and AI models. <br /> Until now I've never had the chance to
-				work in neuroscience and computer science, but I believe
+				by providing efficient tools, AI models and intellectual property support. <br />
+				I've never had the chance to work in neurosciences and computer science, but I believe
 				<em class="text-#00ff0a">Brain&Mind</em> is the perfect structure to do so.
 			</p>
 		</div>
 		<div class="mt-20 w-90% mx-auto lg:ml-10% lg:w-35%">
 			<p class="text-xl lg:text-2xl text-white lg:text-right">
-				During my free time I code neuroscience projects: 2 softwares for neurocognitive tests (<a
-					class="text-#00ff0a"
-					href="https://attention-auditive.vercel.app/">link</a
+				During my free time I code neuroscience projects: 2 softwares for <em class="text-#00ff0a"
+					>neurocognitive tests</em
 				>
-				and <a class="text-#00ff0a" href="https://reponses-associees.vercel.app/">link</a>) and a
-				tool to automate neuropsychologist reports generation. Among other projects, I also built a
-				website to help the diagnosis of endometriosis called
-				<a class="text-#00ff0a" href="https://endometric.vercel.app">endometric</a>. Most of my
-				projects are open source and can be found on my
-				<a class="text-#00ff0a" href="https://github.com/AlexandreKempf">github profile</a>. I love
-				to create tools to help other developers and by doing them I learnt to become
-				<em class="text-#00ff0a">efficient at software prototyping</em>, website development and AI
-				generation. I'm
-				<em class="text-#00ff0a">currently working on a mobile app</em> as a side project using Capacitor.
+				(<a class="text-#00ff0a" href="https://attention-auditive.vercel.app/" target="_blank">🔗</a
+				>
+				and
+				<a class="text-#00ff0a" href="https://reponses-associees.vercel.app/" target="_blank">🔗</a
+				>) and a tool to automate
+				<em class="text-#00ff0a">neuropsychologist reports generation</em>. Among other projects, I
+				also built a website to help the diagnosis of endometriosis called
+				<a class="text-#00ff0a" href="https://endometric.vercel.app" target="_blank">endometric</a>,
+				and a
+				<a
+					class="text-#00ff0a"
+					href="https://alexandrekempf-forces-evolutives.streamlit.app/"
+					target="_blank">biostatistic website</a
+				>
+				to explain evolution pressures. Most of my projects are open source and can be found on my
+				<a class="text-#00ff0a" href="https://github.com/AlexandreKempf" target="_blank"
+					>github profile</a
+				>. I love to create tools to help other developers or self-host apps and data on my own
+				server. By doing so I became
+				<em class="text-#00ff0a">efficient at software prototyping</em>, website development,
+				deployment and AI generation. <br />
+				My current project is a mobile app as a side project using Capacitor and multiple AI models.
 			</p>
 		</div>
 		<div class="mt-20 w-90% mx-auto lg:ml-56% lg:w-35%">
@@ -254,7 +276,9 @@
 				>. My expertise in software development and neurosciences can be a precious resource for
 				start ups that seek advice on their technical stack, or software founders to understand key
 				neurosciences concepts at any scale. With my datascience and MLops background, I can also
-				help AI startups to scale up with quick prototyping and robust deployment strategies.
+				help AI startups to scale up with quick prototyping and robust deployment strategies. I can
+				also support them with intellectual properties since I already contributed to 2 patents and
+				a iso42001 certification.
 				<em class="text-#00ff0a"
 					>My expertise is precisely what startups wants when they seek technical guidance from
 					Brain&Mind.</em
@@ -265,9 +289,9 @@
 			<p class="text-xl lg:text-2xl text-white lg:text-right">
 				I'm working full remote since 2020. Loving life at home with my girlfriend, cats, and the
 				fridge nearby. <br />
-				<em class="text-#00ff0a">I'm very social</em> and stay in touch easily. For instance I
-				organize every offsite my company was planning for the last 3 years. Even though I heard
-				Brain&Mind is not a remote company, I truly think I'm a social facilitator and I can be a
+				<em class="text-#00ff0a">I'm very social</em> and organized every offsites for my companies
+				for the last 3 years. Even though I heard Brain&Mind is not a remote company, I truly think
+				I'm a social facilitator and I can be a
 				<em class="text-#00ff0a">key asset for the team technicaly and socially.</em>
 			</p>
 		</div>
@@ -278,10 +302,10 @@
 			My technical stack: <br />
 			<em class="text-#00ff0a">lang:</em> python, ts, sql, rust(new)<br />
 			<em class="text-#00ff0a">AI:</em> MLP, CNN, LLM, torch<br />
-			<em class="text-#00ff0a">Devops:</em> git, CI/CD, docker, kubernetes(new), terraform(new)<br
-			/>
 			<em class="text-#00ff0a">cloud:</em> GCP, AWS, self-host<br />
-			<em class="text-#00ff0a">web:</em> svelte, tailwind, capacitor<br />
+			<em class="text-#00ff0a">web:</em> svelte, tailwind, capacitor(new)<br />
+			<em class="text-#00ff0a">Devops:</em> git, CI/CD, docker, dvc, grafana, loki, prometheus,
+			kubernetes(new), terraform(new)<br />
 			<em class="text-#00ff0a">other:</em> notion, monday, slack, inkscape, GIMP, blender<br />
 		</p>
 	</div>
@@ -292,6 +316,7 @@
 			<a
 				href="tel:+33611503661"
 				class="no-underline mx-auto hover:underline hover:decoration-white"
+				target="_blank"
 			>
 				<div class="flex flex-col items-center w-50">
 					<div class="i-iconoir-phone m-10 text-white w-10 h-10" />
@@ -302,6 +327,7 @@
 			<a
 				href="mailto: alexandre.kempf@cri-paris.org"
 				class="no-underline mx-auto hover:underline hover:decoration-white"
+				target="_blank"
 			>
 				<div class="flex flex-col items-center w-50">
 					<div class="i-iconoir-mail m-10 text-white w-10 h-10" />
@@ -311,6 +337,7 @@
 			<a
 				href="https://www.linkedin.com/in/alexandre-kempf-phd-7aab53109/"
 				class="no-underline mx-auto hover:underline hover:decoration-white"
+				target="_blank"
 			>
 				<div class="flex flex-col items-center w-50">
 					<div class="i-iconoir-linkedin m-10 text-white w-10 h-10" />
@@ -320,6 +347,7 @@
 			<a
 				href="https://www.instagram.com/pizzas_never_lie/"
 				class="no-underline mx-auto hover:underline hover:decoration-white"
+				target="_blank"
 			>
 				<div class="flex flex-col items-center w-50">
 					<div class="i-iconoir-instagram m-10 text-white w-10 h-10" />
@@ -329,6 +357,7 @@
 			<a
 				href="https://www.facebook.com/alexandre.kempf.73/"
 				class="no-underline mx-auto hover:underline hover:decoration-white"
+				target="_blank"
 			>
 				<div class="flex flex-col items-center w-50">
 					<div class="i-iconoir-facebook m-10 text-white w-10 h-10" />
