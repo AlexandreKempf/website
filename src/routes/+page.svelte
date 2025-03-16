@@ -11,7 +11,7 @@
 		'open source',
 		'Svelte',
 		'helping people',
-		'neurosciences',
+		'neuroscience',
 		'data science',
 		'UnoCSS',
 		'feminism',
@@ -33,7 +33,7 @@
 	];
 	let thingsIWant: string[] = [
 		'finish an Ironman',
-		'work with AI and neurosciences',
+		'work with AI and neuroscience',
 		'be GC in Rocket League',
 		'cross the atlantic on a sailing boat'
 	];
@@ -73,14 +73,14 @@
 	<div id="education" class="pt-30 flex flex-col items-center">
 		<a
 			href="https://deemea.com/"
-			class="square w-70 h-70 left-10% no-underline hover:underline hover:decoration-white"
+			class="square w-80 h-80 left-10% no-underline hover:underline hover:decoration-white"
 			target="_blank"
 		>
 			<i style="--clr:#00ff0a;" />
 			<i style="--clr:#e91e63;" />
 			<i style="--clr:#fffd44;" />
 			<div class="flex flex-col items-center">
-				<img src="planet6.png" alt="pic1" class="w-40% m-3" />
+				<img src="planet6.webp" alt="logo deemea" class="w-40% m-3" />
 				<p class="text-white text-center">2024-now</p>
 				<p class="text-xl text-white font-bold text-center">Lead Data Ops</p>
 				<p class="text-white text-center">medical ops</p>
@@ -95,7 +95,7 @@
 			<i style="--clr:#e91e63;" />
 			<i style="--clr:#fffd44;" />
 			<div class="flex flex-col items-center">
-				<img src="planet5.png" alt="pic1" class="w-40% m-3" />
+				<img src="planet5.png" alt="logo dvc" class="w-40% m-3" />
 				<p class="text-white text-center">2024-2024</p>
 				<p class="text-xl text-white font-bold text-center">Senior Product Engineer</p>
 				<p class="text-white text-center">MLops and open source</p>
@@ -111,7 +111,7 @@
 			<i style="--clr:#e91e63;" />
 			<i style="--clr:#fffd44;" />
 			<div class="flex flex-col items-center">
-				<img src="planet4.png" alt="pic1" class="w-50% m-3" />
+				<img src="planet4.png" alt="logo lixo" class="w-50% m-3" />
 				<p class="text-white text-center">2022-2024</p>
 				<p class="text-xl text-white font-bold text-center">Machine Learning <br />Lead R&D</p>
 				<p class="text-white text-center">computer vision <br />& MLops</p>
@@ -126,7 +126,7 @@
 			<i style="--clr:#e91e63;" />
 			<i style="--clr:#fffd44;" />
 			<div class="flex flex-col items-center">
-				<img src="planet3.png" alt="pic1" class="w-70% m-3" />
+				<img src="planet3.png" alt="logo pandascore" class="w-70% m-3" />
 				<p class="text-white text-center">2018-2022</p>
 				<p class="text-xl text-white font-bold">Data Scientist</p>
 				<p class="text-white text-center">computer vision <br />& MLops</p>
@@ -142,10 +142,10 @@
 			<i style="--clr:#e91e63;" />
 			<i style="--clr:#fffd44;" />
 			<div class="flex flex-col items-center">
-				<img src="planet2.png" alt="pic1" class="w-50% m-3" />
+				<img src="planet2.png" alt="logo cnrs" class="w-50% m-3" />
 				<p class="text-white text-center">2015-2018</p>
 				<p class="text-xl text-white font-bold">PhD degree</p>
-				<p class="text-white text-center">neurosciences <br />& data science</p>
+				<p class="text-white text-center">neuroscience <br />& data science</p>
 			</div>
 		</a>
 		<a
@@ -157,10 +157,10 @@
 			<i style="--clr:#e91e63;" />
 			<i style="--clr:#fffd44;" />
 			<div class="flex flex-col items-center">
-				<img src="planet1.png" alt="pic1" class="w-40% m-3" />
+				<img src="planet1.png" alt="logo ens" class="w-40% m-3" />
 				<p class="text-white text-center">2012-2015</p>
 				<p class="text-xl text-white font-bold">master degree</p>
-				<p class="text-white text-center">neurosciences <br />& maths</p>
+				<p class="text-white text-center">neuroscience <br />& maths</p>
 			</div>
 		</a>
 	</div>
@@ -221,38 +221,36 @@
 	<div id="motivation">
 		<div class="mt-70 w-90% mx-auto lg:ml-56% lg:w-35%">
 			<p class="text-xl lg:text-2xl text-white">
-				I've always loved neurosciences, data science and computer science. <br />After a master
-				degree from the ENS Ulm, I obtained a
-				<em class="text-#00ff0a">PhD degree in neurosciences and machine learning</em>. My work lead
-				to the creation of
+				I've always loved neuroscience, data science and computer science. <br />I got a master's
+				degree from ENS Ulm, and a
+				<em class="text-#00ff0a">PhD degree in neuroscience and machine learning</em> from CNRS. My
+				work lead to
 				<a
 					class="text-#00ff0a"
 					href="https://scholar.google.com/citations?user=ZZw5eWoAAAAJ&hl=fr&oi=ao"
 					target="_blank">6 scientific articles</a
 				>
-				published in international journals, and to the creation of HearLight, a startup founded by my
-				PhD supervisor. <br />
+				in international journals, and to HearLight, a startup founded by my PhD supervisor.
+				<br />
 				After the PhD, I specialized in
 				<em class="text-#00ff0a">AI, software development and Dev/MLops</em>
-				working in start-ups: Pandascore, Lixo, DVC, Deemea. I contributed to the scale up of these companies
-				by providing efficient tools, AI models and intellectual property support. <br />
-				I've never had the chance to work in neurosciences and computer science, but I believe
+				working in start-ups. I contributed to the scale up of these companies by providing efficient
+				tools, AI models and intellectual property support. <br />
+				I've never had the chance to work in neuroscience and computer science together, and I believe
 				<em class="text-#00ff0a">Brain&Mind</em> is the perfect structure to do so.
 			</p>
 		</div>
 		<div class="mt-20 w-90% mx-auto lg:ml-10% lg:w-35%">
 			<p class="text-xl lg:text-2xl text-white lg:text-right">
-				During my free time I code neuroscience projects: 2 softwares for <em class="text-#00ff0a"
-					>neurocognitive tests</em
-				>
+				As side projects, I created tools for <em class="text-#00ff0a">cognitive tests</em>
 				(<a class="text-#00ff0a" href="https://attention-auditive.vercel.app/" target="_blank">🔗</a
 				>
 				and
 				<a class="text-#00ff0a" href="https://reponses-associees.vercel.app/" target="_blank">🔗</a
-				>) and a tool to automate
-				<em class="text-#00ff0a">neuropsychologist reports generation</em>. I also created a game
-				where the player was controled by EEG signals in real time. Among other projects, I also
-				built a website to help the diagnosis of endometriosis called
+				>) and a
+				<em class="text-#00ff0a"> report generator for neuropsychologists</em>. I coded a game where
+				the player was controled by EEG signals in real time. Among other projects, I also built a
+				website to help the diagnosis of endometriosis called
 				<a class="text-#00ff0a" href="https://endometric.vercel.app" target="_blank">endometric</a>,
 				and a
 				<a
@@ -263,20 +261,19 @@
 				to explain evolution pressures. Most of my projects are open source and can be found on my
 				<a class="text-#00ff0a" href="https://github.com/AlexandreKempf" target="_blank"
 					>github profile</a
-				>. I love to create tools to help other developers or self-host apps and data on my own
-				server. By doing so I became
-				<em class="text-#00ff0a">efficient at software prototyping</em>, website development,
+				>. <br /> I love to create tools to help other developers or self-host apps and data on my
+				own server. By doing so I became
+				<em class="text-#00ff0a">efficient at software prototyping</em>, web development, app
 				deployment and AI generation. <br />
 				My current project is a mobile app as a side project using Capacitor and multiple AI models.
 			</p>
 		</div>
 		<div class="mt-20 w-90% mx-auto lg:ml-56% lg:w-35%">
 			<p class="text-xl lg:text-2xl text-white">
-				I had the chance to discuss with Barbara André about the Brain&Mind project. I could guide
-				startups in need of tehcnical advice on a broad range of topics: neurosciences, R&D,
-				software development, AI, cloud, web, devops, deploiement, and intellectual property.
+				I could guide startups in need of technical advice on a broad range of topics: neuroscience,
+				R&D, software development, AI, cloud, web, devops, deploiement, and intellectual property.
 				<em class="text-#00ff0a"
-					>My expertise is precisely what startups wants when they seek technical guidance from
+					>My expertise is precisely what startups want when they seek technical guidance from
 					Brain&Mind.</em
 				>
 			</p>
@@ -285,9 +282,9 @@
 			<p class="text-xl lg:text-2xl text-white lg:text-right">
 				I'm working full remote since 2020. Loving life at home with my girlfriend, cats, and the
 				fridge nearby. <br />
-				<em class="text-#00ff0a">I'm very social</em> and organized every offsites for my companies
-				for the last 3 years. Even though I heard Brain&Mind is not a remote company, I truly think
-				I'm a social facilitator and I can be a
+				<em class="text-#00ff0a">I'm very social</em> and organized all the offsite events for my
+				companies for the last 3 years. Even though I heard Brain&Mind is not a remote company, I
+				truly think I'm a social facilitator and can be a
 				<em class="text-#00ff0a">key asset for the team technicaly and socially.</em>
 			</p>
 		</div>
@@ -306,8 +303,8 @@
 		</div>
 		<div class="mt-20 w-90% mx-auto lg:ml-10% lg:w-35%">
 			<p class="text-xl lg:text-2xl text-white lg:text-right">
-				Beside work, I like to play volleyball, badminton, and to play games. I'm a big fan of board
-				games and video games. I also like music and cooking pizzas.
+				Beside work, I like volleyball and badminton. I'm a big fan of board and video games. I also
+				like music and cooking pizza.
 			</p>
 		</div>
 	</div>
@@ -334,9 +331,7 @@
 			>
 				<div class="flex flex-col items-center w-50">
 					<div class="i-iconoir-mail m-10 text-white w-10 h-10" />
-					<p class="text-xl text-white no-underline">
-						alexandre.kempf<br />@learningplanetinstitute.org
-					</p>
+					<p class="text-xl text-white no-underline">mail</p>
 				</div>
 			</a>
 			<a
