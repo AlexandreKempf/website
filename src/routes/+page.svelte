@@ -250,8 +250,9 @@
 				and
 				<a class="text-#00ff0a" href="https://reponses-associees.vercel.app/" target="_blank">🔗</a
 				>) and a tool to automate
-				<em class="text-#00ff0a">neuropsychologist reports generation</em>. Among other projects, I
-				also built a website to help the diagnosis of endometriosis called
+				<em class="text-#00ff0a">neuropsychologist reports generation</em>. I also created a game
+				where the player was controled by EEG signals in real time. Among other projects, I also
+				built a website to help the diagnosis of endometriosis called
 				<a class="text-#00ff0a" href="https://endometric.vercel.app" target="_blank">endometric</a>,
 				and a
 				<a
@@ -271,14 +272,9 @@
 		</div>
 		<div class="mt-20 w-90% mx-auto lg:ml-56% lg:w-35%">
 			<p class="text-xl lg:text-2xl text-white">
-				I had the chance to discuss with Barbara André about the Brain&Mind project and <em
-					class="text-#00ff0a">I would like to apply as a Senior Software/Consulting Engineer</em
-				>. My expertise in software development and neurosciences can be a precious resource for
-				start ups that seek advice on their technical stack, or software founders to understand key
-				neurosciences concepts at any scale. With my datascience and MLops background, I can also
-				help AI startups to scale up with quick prototyping and robust deployment strategies. I can
-				also support them with intellectual properties since I already contributed to 2 patents and
-				a iso42001 certification.
+				I had the chance to discuss with Barbara André about the Brain&Mind project. I could guide
+				startups in need of tehcnical advice on a broad range of topics: neurosciences, R&D,
+				software development, AI, cloud, web, devops, deploiement, and intellectual property.
 				<em class="text-#00ff0a"
 					>My expertise is precisely what startups wants when they seek technical guidance from
 					Brain&Mind.</em
@@ -295,21 +291,27 @@
 				<em class="text-#00ff0a">key asset for the team technicaly and socially.</em>
 			</p>
 		</div>
+		<div class="mt-20 w-90% mx-auto lg:ml-56% lg:w-35%">
+			<p class="text-xl lg:text-2xl text-white">
+				My technical stack: <br />
+				<em class="text-#00ff0a">lang:</em> python, ts, sql, rust(new)<br />
+				<em class="text-#00ff0a">AI:</em> MLP, CNN, LLM, torch<br />
+				<em class="text-#00ff0a">cloud:</em> GCP, AWS, self-host<br />
+				<em class="text-#00ff0a">web:</em> svelte, tailwind, capacitor(new)<br />
+				<em class="text-#00ff0a">Devops:</em> git, CI/CD, docker, dvc, grafana, loki, prometheus,
+				kubernetes(new), terraform(new)<br />
+				<em class="text-#00ff0a">other:</em> notion, monday, slack, inkscape, GIMP, blender, godot<br
+				/>
+			</p>
+		</div>
+		<div class="mt-20 w-90% mx-auto lg:ml-10% lg:w-35%">
+			<p class="text-xl lg:text-2xl text-white lg:text-right">
+				Beside work, I like to play volleyball, badminton, and to play games. I'm a big fan of board
+				games and video games. I also like music and cooking pizzas.
+			</p>
+		</div>
 	</div>
 
-	<div class="mt-20 w-90% mx-auto lg:ml-56% lg:w-35%">
-		<p class="text-xl lg:text-2xl text-white">
-			My technical stack: <br />
-			<em class="text-#00ff0a">lang:</em> python, ts, sql, rust(new)<br />
-			<em class="text-#00ff0a">AI:</em> MLP, CNN, LLM, torch<br />
-			<em class="text-#00ff0a">cloud:</em> GCP, AWS, self-host<br />
-			<em class="text-#00ff0a">web:</em> svelte, tailwind, capacitor(new)<br />
-			<em class="text-#00ff0a">Devops:</em> git, CI/CD, docker, dvc, grafana, loki, prometheus,
-			kubernetes(new), terraform(new)<br />
-			<em class="text-#00ff0a">other:</em> notion, monday, slack, inkscape, GIMP, blender, godot<br
-			/>
-		</p>
-	</div>
 	<div class="h-50" />
 
 	<div id="contact">
@@ -326,13 +328,15 @@
 			</a>
 
 			<a
-				href="mailto: alexandre.kempf@cri-paris.org"
+				href="mailto: alexandre.kempf@learningplanetinstitute.org"
 				class="no-underline mx-auto hover:underline hover:decoration-white"
 				target="_blank"
 			>
 				<div class="flex flex-col items-center w-50">
 					<div class="i-iconoir-mail m-10 text-white w-10 h-10" />
-					<p class="text-xl text-white no-underline">alexandre.kempf<br />@cri-paris.org</p>
+					<p class="text-xl text-white no-underline">
+						alexandre.kempf<br />@learningplanetinstitute.org
+					</p>
 				</div>
 			</a>
 			<a
