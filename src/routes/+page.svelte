@@ -11,12 +11,11 @@
 		'open source',
 		'Svelte',
 		'helping people',
-		'neuroscience',
+		'feminism',
 		'data science',
 		'UnoCSS',
-		'feminism',
 		'functional programming',
-		'to create tools for neuroscientists',
+		'neuroscience',
 		'video games',
 		'T1 Faker',
 		'to create tools for data scientists',
@@ -33,7 +32,7 @@
 	];
 	let thingsIWant: string[] = [
 		'finish an Ironman',
-		'work with AI and neuroscience',
+		'reduce gender gap in medical science',
 		'be GC in Rocket League',
 		'cross the atlantic on a sailing boat'
 	];
@@ -221,8 +220,8 @@
 	<div id="motivation">
 		<div class="mt-70 w-90% mx-auto lg:ml-56% lg:w-35%">
 			<p class="text-xl lg:text-2xl text-white">
-				I've always loved neuroscience, data science and computer science. <br />I got a master's
-				degree from ENS Ulm, and a
+				I've always loved data science and computer science. <br />I got a master's degree from ENS
+				Ulm, and a
 				<em class="text-#00ff0a">PhD degree in neuroscience and machine learning</em> from CNRS. My
 				work lead to
 				<a
@@ -235,46 +234,44 @@
 				After the PhD, I specialized in
 				<em class="text-#00ff0a">AI, software development and Dev/MLops</em>
 				working in start-ups. I contributed to the scale up of these companies by providing efficient
-				tools, AI models and intellectual property support. <br />
-				I've never had the chance to work in neuroscience and computer science together, and I believe
-				<em class="text-#00ff0a">Brain&Mind</em> is the perfect structure to do so.
+				tools, AI models and intellectual property support with:<br />
+				- the design of 2 ML training pipelines<br />
+				- the implementation of 2 inference servers<br />
+				- the deposit of 2 patents<br />
+				- the setup of the ISO42001<br />
 			</p>
 		</div>
 		<div class="mt-20 w-90% mx-auto lg:ml-10% lg:w-35%">
 			<p class="text-xl lg:text-2xl text-white lg:text-right">
-				As side projects, I created tools for <em class="text-#00ff0a">cognitive tests</em>
-				(<a class="text-#00ff0a" href="https://attention-auditive.vercel.app/" target="_blank">🔗</a
+				As side projects, I built a website to help the diagnosis of endometriosis called <a
+					class="text-#00ff0a"
+					href="https://endometric.vercel.app"
+					target="_blank">endometric</a
+				>. Among other projects, I created tools for cognitive tests (<a
+					href="https://attention-auditive.vercel.app/"
+					target="_blank">🔗</a
 				>
 				and
-				<a class="text-#00ff0a" href="https://reponses-associees.vercel.app/" target="_blank">🔗</a
-				>) and a
-				<em class="text-#00ff0a"> report generator for neuropsychologists</em>. I coded a game where
-				the player was controled by EEG signals in real time. Among other projects, I also built a
-				website to help the diagnosis of endometriosis called
-				<a class="text-#00ff0a" href="https://endometric.vercel.app" target="_blank">endometric</a>,
-				and a
-				<a
-					class="text-#00ff0a"
-					href="https://alexandrekempf-forces-evolutives.streamlit.app/"
-					target="_blank">biostatistic website</a
-				>
-				to explain evolution pressures. Most of my projects are open source and can be found on my
+				<a href="https://reponses-associees.vercel.app/" target="_blank">🔗</a>) and a report
+				generator for neuropsychologists. I created a biostatistic website
+				<a href="https://alexandrekempf-forces-evolutives.streamlit.app/" target="_blank">🔗</a>
+				to explain evolution pressures to students. Most of my projects are open source and can be found
+				on my
 				<a class="text-#00ff0a" href="https://github.com/AlexandreKempf" target="_blank"
 					>github profile</a
-				>. <br /> I love to create tools to help other developers or self-host apps and data on my
-				own server. By doing so I became
-				<em class="text-#00ff0a">efficient at software prototyping</em>, web development, app
-				deployment and AI generation. <br />
+				>. <br /> I love to create tools to help other developers or self-host apps on my own
+				server. By doing so I became
+				<em class="text-#00ff0a">efficient at software prototyping</em>, web development,
+				<em class="text-#00ff0a">app deployment and AI model generation.</em> <br />
 				My current project is a mobile app as a side project using Capacitor and multiple AI models.
 			</p>
 		</div>
 		<div class="mt-20 w-90% mx-auto lg:ml-56% lg:w-35%">
 			<p class="text-xl lg:text-2xl text-white">
-				I could guide startups in need of technical advice on a broad range of topics: neuroscience,
-				R&D, software development, AI, cloud, web, devops, deploiement, and intellectual property.
+				I am proficient on a broad range of topics: neuroscience, R&D, software development, AI,
+				cloud, web, devops, deploiement, and intellectual property.
 				<em class="text-#00ff0a"
-					>My expertise is precisely what startups want when they seek technical guidance from
-					Brain&Mind.</em
+					>I would love to use this knowledge for a good cause, such as global warming or feminism.</em
 				>
 			</p>
 		</div>
@@ -283,8 +280,7 @@
 				I'm working full remote since 2020. Loving life at home with my girlfriend, cats, and the
 				fridge nearby. <br />
 				<em class="text-#00ff0a">I'm very social</em> and organized all the offsite events for my
-				companies for the last 3 years. Even though I heard Brain&Mind is not a remote company, I
-				truly think I'm a social facilitator and can be a
+				companies for the last 3 years. I truly think I'm a social facilitator and can be a
 				<em class="text-#00ff0a">key asset for the team technicaly and socially.</em>
 			</p>
 		</div>
